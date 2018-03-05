@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tweather</string>
+    <string name="current_temperature">Current temperature</string>
+    <string name="temperature">%1$f °C / %2$f °F</string>
+
+    <string name="city">City: %1$s</string>
+    <string name="day_temperature">Temperature:  %1$f °C / %2$f °F</string>
+    <string name="day_pressure_humidity">Pressure: %1$d hPa, Humidity: %2$d %%</string>
+    <string name="day_wind_details">Wind Speed: %1$f m/s, Direction: %2$d °</string>
+    <string name="cloudiness">Cloudiness: %1$d %%</string>
+    <string name="rain_3h">Rain volume (last 3 hours): %1$d mm</string>
+
+    <string name="current_weather">Current Weather</string>
+    <string name="future_weather">Future Weather</string>
+    <string name="std_dev">Standard Deviation of Temperature: %1$f °C</string>
+</resources>
