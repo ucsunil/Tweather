@@ -4,7 +4,7 @@ The project was developed in Android Studio 3.0.1. The screenshots were all take
 
 The application consists of two primary fragments to fetch current and future weather from the server. The fetch process happens in an AsyncTask.
 
-When the weather is cloudy a custom CloudView is shown. When the weather is sunny, a custom SunView is shown. Note that these two views are animated and will keep spinning slowly.
+When the weather is cloudy a custom CloudView is shown. When the weather is sunny, a custom SunView is shown. Note that these two views are animated and will keep spinning slowly. **These custom views are borrowed from the Skycons library at https://github.com/torryharris/Skycons**. I slightly modified the views to set the default color for clouds to be gray and for the sun to be yellow.
 
 There are a few instrumentation tests in the package. Since this is not a full fledged application, I stuck to using the actual remote endpoints to retrieve the information. In an actual application, a mock web server should be used to provide this information. With enough time, I would add more tests to expand code coverage.
 
